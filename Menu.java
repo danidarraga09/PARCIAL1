@@ -1,6 +1,6 @@
 import java.util.*;
-    public class menu{
-        public void Main (Strings[] args){
+    public class Menu{
+        public void Main(Strings[] args){
 
         try(Scanner sc= new Scanner(System.in)){
             int opcion=0;

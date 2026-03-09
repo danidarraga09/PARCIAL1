@@ -2,16 +2,16 @@ import java.io.*;
 public class opcion1{
     public static void Productosmasvendidos(){
         BufferedReader brproductos=(new fileReader("productos.csv"));
-        String linea brproductos.readLine();
-        int MAX=100;
+        String linea= brproductos.readLine();
+        int MAX=100 ;
         int [] id=new int[MAX];
-        String[] nombre=new int[MAX];
-        String[] categoria=new int [MAX];
+        String[] nombre=new String[MAX];
+        String[] categoria=new String[MAX];
         Double[] precio=new Double[MAX];
         int[] vendedor_id=new int[MAX];
 
         int nProductos=0;
-        while ((linea=brproductos.readLine()!=null)) {
+        while ((linea = brproductos.readLine()!=null)) {
             String[] datos=linea.split(",");
             id[nProductos]= Integer.Parseint(datos[0]);
             nombre[nProductos]=(datos[1]);
