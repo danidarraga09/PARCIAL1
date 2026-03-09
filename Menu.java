@@ -20,7 +20,7 @@ import java.util.*;
         opcion=sc.nextInt();
         switch (opcion) {
             case 1:
-                
+                opcion1.Productosmasvendidos();
                 break;
             case 2:
                 break;
